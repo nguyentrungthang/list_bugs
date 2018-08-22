@@ -36,3 +36,8 @@ Route::get('/home', function(){
 Route::get('/test_thangnt', function(){
     return 'thangnt_test';
 });
+
+Route::get('/test_thangnt_222', function(){
+    return 'thangnt_test_222';
+});
+
