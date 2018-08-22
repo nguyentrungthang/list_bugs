@@ -33,3 +33,6 @@ Route::group(['middleware' => 'auth:api'], function(){
 Route::get('/home', function(){
     return view('home');
 });
+Route::get('/test_thangnt', function(){
+    return 'thangnt_test';
+});
